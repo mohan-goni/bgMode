@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bg-light-mode {
+  background-color: #ffffff;
+}
+.bg-dark-mode {
+  background-color: #000000;
+}
+.container {
+  padding: 20px;
+  border-radius: 5px;
+}
+.light-container {
+  background-color: #ffffff;
+}
+.dark-container {
+  background-color: #000000;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.description {
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.dark-description {
+  color: #000000;
+}
+
+.light-description {
+  color: #ffffff;
+}
